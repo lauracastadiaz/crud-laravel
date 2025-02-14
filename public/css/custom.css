@@ -1,0 +1,257 @@
+
+/* Cambio de color para los botones */
+.btn-primary {
+    background-color: #6f42c1;  /* Morado */
+    border-color: #6f42c1;
+    color: white;
+    box-shadow: 0 4px 10px rgba(111, 66, 193, 0.2); /* Sombra sutil */
+    font-weight: 600;  /* Hacer que el texto sea un poco más fuerte */
+    padding: 10px 20px;  /* Espaciado interior */
+    border-radius: 30px;  /* Bordes redondeados */
+    transition: all 0.3s ease;  /* Transición suave */
+    text-transform: uppercase;  /* Convertir texto a mayúsculas */
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a2b9b;
+    border-color: #5a2b9b;
+}
+
+
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+    background-color: #dae0e5;
+    border-color: #dae0e5;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+/* Cambio de color de los fondos */
+.bg-primary {
+    background-color: #6f42c1 !important;  /* Morado */
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;  /* Gris */
+}
+
+.bg-success {
+    background-color: #28a745 !important;  /* Verde */
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;  /* Rojo */
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;  /* Amarillo */
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;  /* Azul */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;  /* Gris claro */
+}
+
+.bg-dark {
+    background-color: #343a40 !important;  /* Gris oscuro */
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+/* Cambio de color para los textos */
+.text-primary {
+    color: #6f42c1 !important;  /* Morado */
+}
+
+.text-secondary {
+    color: #e2e6ea !important;  /* Gris */
+}
+
+.text-success {
+    color: #28a745 !important;  /* Verde */
+}
+
+.text-danger {
+    color: #dc3545 !important;  /* Rojo */
+}
+
+.text-warning {
+    color: #ffc107 !important;  /* Amarillo */
+}
+
+.text-info {
+    color: #17a2b8 !important;  /* Azul */
+}
+
+.text-light {
+    color: #f8f9fa !important;  /* Gris claro */
+}
+
+.text-dark {
+    color: #343a40 !important;  /* Gris oscuro */
+}
+
+/* Cambio de color para enlaces */
+a {
+    color: #6f42c1 !important;  /* Morado */
+}
+
+a:hover {
+    color: #efe8f9 !important;  /* Morado más oscuro */
+}
+
+/* Cambio de color para badges (etiquetas) */
+.badge.bg-primary {
+    background-color: #6f42c1 !important;  /* Morado */
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;  /* Gris */
+}
+
+.badge.bg-success {
+    background-color: #28a745 !important;  /* Verde */
+}
+
+.badge.bg-danger {
+    background-color: #dc3545 !important;  /* Rojo */
+}
+
+.badge.bg-warning {
+    background-color: #ffc107 !important;  /* Amarillo */
+}
+
+.badge.bg-info {
+    background-color: #17a2b8 !important;  /* Azul */
+}
+
+.badge.bg-light {
+    background-color: #f8f9fa !important;  /* Gris claro */
+}
+
+.badge.bg-dark {
+    background-color: #343a40 !important;  /* Gris oscuro */
+}
+
+/* Cambio de color para las tablas */
+.table thead {
+    background-color: #6f42c1 !important;  /* Morado */
+    color: white !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa !important;  /* Gris claro */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1 !important;  /* Gris al pasar el mouse */
+}
+
+/* Cambio de color para los formularios */
+.form-control {
+    border-color: #6f42c1 !important;  /* Morado */
+}
+
+.form-control:focus {
+    border-color: #5a2b9b !important;  /* Morado más oscuro */
+}
+
+/* Cambio de color para los alertas */
+.alert-primary {
+    background-color: #6f42c1 !important;  /* Morado */
+    color: white !important;
+}
+
+.alert-secondary {
+    background-color: #6c757d !important;  /* Gris */
+    color: white !important;
+}
+
+.alert-success {
+    background-color: #28a745 !important;  /* Verde */
+    color: white !important;
+}
+
+.alert-danger {
+    background-color: #dc3545 !important;  /* Rojo */
+    color: white !important;
+}
+
+.alert-warning {
+    background-color: #ffc107 !important;  /* Amarillo */
+    color: black !important;
+}
+
+.alert-info {
+    background-color: #17a2b8 !important;  /* Azul */
+    color: white !important;
+}
+
+.alert-light {
+    background-color: #f8f9fa !important;  /* Gris claro */
+    color: black !important;
+}
+
+.alert-dark {
+    background-color: #343a40 !important;  /* Gris oscuro */
+    color: white !important;
+}
